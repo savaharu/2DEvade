@@ -157,11 +157,11 @@ function mainLoop() {
     
     if(result.win) {
         window.alert('YOU WIN! PRESS ENTER TO START!');
-        window.location.replace('start.html', 'play.html');
+        window.location.replace('index.html', 'play.html');
     }
     else if(result.lose) {
         window.alert('YOU LOSE... PRESS ENTER TO START.');
-        window.location.replace('start.html', 'play.html');
+        window.location.replace('index.html', 'play.html');
     }
     else {
         draw();
